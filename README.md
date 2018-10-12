@@ -8,6 +8,7 @@ Lession 1: What is Testing?
 
 Overview of testing
 First: Dont see testing is a big problem, even big product is still have bug.
+
 Second: Dont make testing become monotithic problem, but rather can be broken down into a lot of **smaller sub-problems**, and by looking at those sub-problems, we can apply known **techniques** and things that people have done before, and we could sort of pattern match on these problems, and once we've become good at these smaller problems, then we can become much better testers as a whole.
 
 What is testing?
