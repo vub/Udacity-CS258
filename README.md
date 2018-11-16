@@ -17,15 +17,18 @@ Software under test
 outputs are processed by an acceptability check
 
 Facts about testing:
+
 The goal of testing isn't so much as finding bugs, but rather it's **finding bugs as early as possible**.
 ( We dont give product to customer and let them find bugs, it huge cost associated.
 We rather than want to find early
 And found earlier is cheaper to fix )
+
 The second fact is that it's possible to spend a lot of time and effort on testing and still do a really bad job. Doing testing right requires some **imagination and some good taste**.
+
 Third, **more testing is not always better**. In fact, the quality of testing is all about the cost/benefit tradeoff.
 And fundamentally, testing is an economic activity.
-( We're spending money or we're spending effort on testing in order to save ourselves money and effort later.
-)
+( We're spending money or we're spending effort on testing in order to save ourselves money and effort later.)
+
 Fourth, testing can be made much easier by **designing software to be testable**.
 
 Fifth, **quality cannot be tested into software**.
@@ -42,6 +45,7 @@ Finally, we can't write effective test cases for parts of the spec that we didn'
 
 What Happens When We Test Software
 ( flow after test fail )
+
 Bug in software under test
 Bug in acceptability test
 Bug in specification
@@ -51,9 +55,33 @@ Fixed Sized Queue
 
 Problem set: Black box testing
 
+10; Creating testable software ~ Things you should care when create new software
+
+- Clean code
+- Refactor
+- Have describe what module does & how it interacts with other component
+- No extra thread
+- No global variables
+- No pointer soup
+- Have unit test
+- support fault injection
+- contain large number assertions
+
+11; Assertions
+
+Assertions is excutable check validate of value
+
+Example: assert input < 0, assert result > 0
+
+Tips to use assert:
+
+- Assert not for handling error
+- Don't make side effice
+- No silly assertions
+
+12; Quiz: Checkrep
 
 Lession 2: Problem set: Black box testing
-
 
 ## II. Code Coverage
 
