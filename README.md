@@ -4,7 +4,7 @@
 
 How to think about the different elements of software testing.
 
-Lession 1: What is Testing?
+**Lession 1: What is Testing?**
 
 Overview of testing
 First: Dont see testing is a big problem, even big product is still have bug.
@@ -81,7 +81,64 @@ Tips to use assert:
 
 12; Quiz: Checkrep
 
-Lession 2: Problem set: Black box testing
+13; Why Assertions
+
+- Make code self-checking, leading effect testing
+- Make code fail early, close to debug
+- Assign blame
+- Document assumtion, help other developer understand
+
+14; Are Assertions use for production?
+
+This used in production at GCC, LLVM
+
+15; Disabling Assertions
+
+Advantages of disabling assertions
+
+- Code run faster
+- Code keep going
+
+Disavantages
+
+- what if code rely on side effect assetion
+- even production code, may be better fail early
+
+16; When to use assetion
+
+- Use assetion when accept error in assetion for fulture
+- Dont assetion in production to keep aplication going when get error (spaceship problem)
+
+17;18;19;20;21 Create good test case
+
+Sitution for test
+
+22; Testing a GUI
+
+23; 24; APIs trusted
+
+25; 26; 27 Test ting Timing
+
+28;
+
+29; Nonfunction input
+
+30; 31; 32; 33; 34 Types of testing
+
+- white box testing
+- black box testing
+- unit testing
+- integration testing
+- system testing
+- differential testing
+- stress testing
+- random testing
+- regression testing
+- validation testing
+
+**Lession 2: Problem set: Black box testing.**
+
+File
 
 ## II. Code Coverage
 
