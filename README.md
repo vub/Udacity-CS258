@@ -6,14 +6,14 @@ How to think about the different elements of software testing.
 
 **Lession 1: What is Testing?**
 
-Overview of testing: testing mindset
+1; Overview of testing: testing mindset
 
 - First: Dont see testing is a big problem, even big product is still have bug.
 - Second: Dont make testing become monotithic problem, but rather can be broken down into a lot of **smaller sub-problems**, and by looking at those sub-problems, we can apply known **techniques** and things that people have done before, and we could sort of pattern match on these problems, and once we've become good at these smaller problems, then we can become much better testers as a whole.
 
-What is testing?
+2; What is testing?
 
-- Source of test uinput
+- Source of test input
 - Software under test
 - outputs are processed by an acceptability check
 
@@ -31,14 +31,13 @@ Facts about testing:
   - The third reason is we can't test the code that we left out because we didn't understand that it needed to be written.
   - Finally, we can't write effective test cases for parts of the spec that we didn't understand correctly.
 
-What Happens When We Test Software ( flow after test fail )
+3; What Happens When We Test Software ( flow after test fail )
 
-- Bug in software under test
 - Bug in software under test
 - Bug in specification
 - Bug in OS / compiler / lib / hardware
 
-Fixed Sized Queue
+5; Fixed Sized Queue
 
 Problem set: Black box testing
 
@@ -110,7 +109,7 @@ Sitution for test
 
 29; Nonfunction input
 
-30; 31; 32; 33; 34 Types of testing
+30; 31; 32; 33; 34 Types of testing and which
 
 - white box testing
 - black box testing
@@ -125,8 +124,6 @@ Sitution for test
 
 **Lession 2: Problem set: Black box testing.**
 
-File
-
 ## II. Code Coverage
 
 How to find parts of a program that need more testing.
@@ -135,7 +132,7 @@ Lession 3: Coverage
 
 2; 3; 4; 5; Coverage
 
-6; 7; 8; Splay tree
+6; 7; 8; Coverage in practice : Splay tree
 
 9; 10; Improve coverage
 
